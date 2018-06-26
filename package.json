@@ -1,0 +1,32 @@
+{
+  "name": "gatsby-barebones-markdown",
+  "description": "Gatsby barebones markdown",
+  "version": "0.0.1",
+  "author": "Mike Allanson <michael.allanson@gmail.com>",
+  "dependencies": {
+    "gatsby": "next",
+    "gatsby-plugin-react-helmet": "next",
+    "gatsby-source-filesystem": "next",
+    "gatsby-transformer-remark": "next",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-helmet": "^5.2.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write 'src/**/*.js'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "prettier": "^1.12.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  }
+}
